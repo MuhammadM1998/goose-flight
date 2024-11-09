@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', '@nuxt/ui'],
+  modules: ['@nuxt/eslint', '@nuxt/image', '@nuxt/ui'],
 
   // Nuxt ESlint (https://eslint.nuxt.com)
   eslint: { config: { standalone: false } }, // Generate only Nuxt-specific rules as we're using `antfu/eslint-config` for other Vue & TS rules
