@@ -6,10 +6,7 @@
   // Disable the default formatter and use eslint instead for auto-fixing
   "prettier.enable": false,
   "editor.formatOnSave": false,
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "never",
-    "source.fixAll.eslint": "always"
-  },
+  "editor.codeActionsOnSave": { "source.organizeImports": "never", "source.fixAll.eslint": "always" },
 
   // Silent the stylistic rules in you IDE, but still auto fix them
   "eslint.rules.customizations": [
@@ -26,27 +23,9 @@
   ],
 
   // Enable eslint for all supported languages
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "vue",
-    "html",
-    "markdown",
-    "json",
-    "jsonc",
-    "yaml",
-    "toml",
-    "xml",
-    "gql",
-    "graphql",
-    "astro",
-    "svelte",
-    "css",
-    "less",
-    "scss",
-    "pcss",
-    "postcss"
-  ]
+  "eslint.validate": ["javascript", "typescript", "vue", "json", "jsonc", "css"],
+
+  // --- Nuxt UI & Tailwind CSS ---
+  "files.associations": { "*.css": "tailwindcss" },
+  "editor.quickSuggestions": { "strings": "on" }
 }
