@@ -4,6 +4,7 @@
       Discover Our Paradise Worlds, Travel Anywhere Now!
     </h1>
 
+    <HomeBookingForm />
     <HomePopularDestinations />
   </UContainer>
 </template>
