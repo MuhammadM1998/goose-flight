@@ -2,13 +2,13 @@
   "name": "goose-flight",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@9.12.3",
   "author": "Muhammad Mahmoud (https://github.com/MuhammadM1998/)",
   "homepage": "https://github.com/MuhammadM1998/goose-flight",
   "repository": {
     "type": "git",
     "url": "https://github.com/MuhammadM1998/goose-flight"
   },
-  "packageManager": "pnpm@9.12.3",
   "engines": {
     "pnpm": ">=9.12.3",
     "npm": "please-use-pnpm",
@@ -19,12 +19,16 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "lint": "pnpm eslint . --cache",
+    "lint:fix": "pnpm lint --fix"
   },
   "dependencies": {
     "nuxt": "^3.14.159"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^3.8.0",
+    "@nuxt/eslint": "^0.6.1",
     "typescript": "^5.6.3",
     "vue-tsc": "^2.1.10"
   }
