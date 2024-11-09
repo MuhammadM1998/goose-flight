@@ -8,6 +8,9 @@ export default defineNuxtConfig({
   // Nuxt UI (https://ui3.nuxt.dev/getting-started)
   css: ['~/assets/css/main.css'],
 
+  // Nuxt Color Mode (https://color-mode.nuxtjs.org/#configuration)
+  colorMode: { preference: 'light' },
+
   // Misc
   future: { compatibilityVersion: 4 },
   compatibilityDate: '2024-04-03',
