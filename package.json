@@ -25,7 +25,8 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "nuxt": "^3.14.159"
+    "nuxt": "^3.14.159",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.8.0",
