@@ -10,10 +10,18 @@
         </p>
 
         <ul>
-          <li>About GooseFlight</li>
-          <li>How it works</li>
-          <li>Blog</li>
-          <li>Forum</li>
+          <li>
+            <a href="#">About GooseFlight</a>
+          </li>
+          <li>
+            <a href="#">How it works</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Forum</a>
+          </li>
         </ul>
       </div>
 
@@ -24,12 +32,24 @@
         </p>
 
         <ul>
-          <li>Help Center</li>
-          <li>Contact us</li>
-          <li>Privacy policy</li>
-          <li>Terms of service</li>
-          <li>Trust and safety</li>
-          <li>Accessibility</li>
+          <li>
+            <a href="#">Help Center</a>
+          </li>
+          <li>
+            <a href="#">Contact us</a>
+          </li>
+          <li>
+            <a href="#">Privacy policy</a>
+          </li>
+          <li>
+            <a href="#">Terms of service</a>
+          </li>
+          <li>
+            <a href="#">Trust and safety</a>
+          </li>
+          <li>
+            <a href="#">Accessibility</a>
+          </li>
         </ul>
       </div>
 
@@ -40,18 +60,20 @@
         </p>
 
         <ul>
-          <li>Tripma for Android</li>
-          <li>Tripma for iOS</li>
-          <li>Mobile site</li>
           <li>
-            <button>
-              <IconAppStore />
-            </button>
+            <a href="#">Tripma for Android</a>
           </li>
           <li>
-            <button>
-              <IconGooglePlay />
-            </button>
+            <a href="#">Tripma for iOS</a>
+          </li>
+          <li>
+            <a href="#">Mobile site</a>
+          </li>
+          <li>
+            <a href="#"><IconAppStore /></a>
+          </li>
+          <li>
+            <a href="#"><IconGooglePlay /></a>
           </li>
         </ul>
       </div>
