@@ -1,2 +1,25 @@
 @import 'tailwindcss';
 @import '@nuxt/ui';
+
+/* Overriding Nuxt UI default to use our design system */
+:root {
+  --ui-bg: #f3f7fC;
+  --ui-text: #333333;
+  --ui-primary: #EAA121;
+  --ui-secondary: #183867;
+  --ui-border: #b9c0c8;
+}
+
+/* Injecting `theme` variables as `theme` to add them as utility classes (e.g `text-primary`, `bg-muted`, etc..) */
+@theme {
+  /* Font */
+  --font-family-sans: 'Montserrat', sans-serif;
+  --font-family-playfair: 'Playfair Display', sans-serif;
+
+  /* Colors */
+  --color-primary: #f3f7fC;
+  --color-foreground: #333333;
+  --color-primary: var(--ui-primary);
+  --color-secondary: var(--ui-secondary);
+  --color-border: var(--ui-border);
+}
