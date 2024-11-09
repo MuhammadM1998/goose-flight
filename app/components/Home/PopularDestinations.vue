@@ -42,7 +42,7 @@ const placeholderData = [
     </p>
 
     <ul class="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-      <li v-for="(item, index) in placeholderData" :key="index" class="p-4 border border-white rounded-lg bg-[#F2F4F7] flex flex-col space-y-4">
+      <li v-for="(item, index) in placeholderData" :key="index" class="p-4 border border-white rounded-lg bg-[#F2F4F7] flex flex-col space-y-4 hover:bg-[#F2F1ED] hover:border-[#F0A41F] transition-colors">
         <!-- Image -->
         <NuxtImg :src="item.image" format="webp" />
 
