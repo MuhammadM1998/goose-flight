@@ -4,7 +4,7 @@ This is a demo of a landing page for a company named Goose-Flight.
 
 ## Task Analysis & Time Estimation
 - Project Setup (**2 hrs**)
-  - Scafollding a new Nuxt project
+  - Scaffolding a new Nuxt project
   - Adding required packages & modules for development (ESLint, Nuxt UI, TailwindCSS, TypeScript, Nuxt I18n, Nuxt Image)
   - Structuring the project
  
