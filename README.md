@@ -1,41 +1,31 @@
-# Nuxt Minimal Starter
+# Goose Fight
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a demo of a landing page for a company named goose-flight.
 
-## Setup
+## Local Development
 
-Make sure to install dependencies:
+Clone the repo
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+git clone https://github.com/MuhammadM1998/goose-flight
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Install the latest [Node](https://nodejs.org/en) and enable corepack
 
 ```bash
-# npm
-npm run dev
+corepack enable
+```
 
-# pnpm
-pnpm dev
+Install the dependencies
 
-# yarn
-yarn dev
+```bash
+pnpm install
+```
 
-# bun
-bun run dev
+Start the development server on [localhost:3000](http://localhost:3000)
+
+```bash
+pnpm run dev
 ```
 
 ## Production
@@ -43,33 +33,11 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
 pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
