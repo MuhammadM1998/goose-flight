@@ -1,6 +1,25 @@
 # Goose Fight
 
-This is a demo of a landing page for a company named goose-flight.
+This is a demo of a landing page for a company named Goose-Flight.
+
+## Task Analysis & Time Estimation
+- Project Setup (**2 hrs**)
+  - Scafollding a new Nuxt project
+  - Adding required packages & modules for development (ESLint, Nuxt UI, TailwindCSS, TypeScript, Nuxt I18n, Nuxt Image)
+  - Structuring the project
+ 
+- Homepage (**2 hrs**)
+  - Header (with Side Menu in mobile)
+  - Hero Section
+  - Booking Form Section
+  - Popular Destinations Section
+  - Footer
+ 
+- Locale Switcher (**0.5 hrs**)
+  - A select menu in the Header
+  - Translating some messages (Header & Hero Section) as POC
+ 
+- Documentation (**0.5 hrs**)
 
 ## Local Development
 
