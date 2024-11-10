@@ -17,7 +17,7 @@ export default defineNuxtConfig({
       { code: 'ar', language: 'ar-EG', file: 'ar.json', dir: 'rtl' },
       { code: 'en', language: 'en-US', file: 'en.json', dir: 'ltr' },
     ],
-    defaultLocale: 'en',
+    defaultLocale: 'ar',
     lazy: true,
   },
 
