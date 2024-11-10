@@ -1,3 +1,11 @@
 {
-  "welcome": "Welcome"
+  "nav": {
+    "home": "Home",
+    "promo": "Promo",
+    "my-bookings": "My Bookings",
+    "sign-in": "Sign in"
+  },
+  "hero": {
+    "title": "Discover Our Paradise Worlds, Travel Anywhere Now!"
+  }
 }
