@@ -12,6 +12,9 @@ const navLinks = ref([{ label: 'Home', to: '/' }, { label: 'Promo' }, { label: '
 
     <UNavigationMenu :items="navLinks" highlight class="w-fit hidden md:flex" />
 
-    <UButton label="Sign In" class="hidden md:block" />
+    <div class="flex items-center gap-2">
+      <AppLocaleSwitcher />
+      <UButton label="Sign In" class="hidden md:block" />
+    </div>
   </UContainer>
 </template>
